@@ -31,7 +31,7 @@ public class Program {
                         System.out.println("Up: " + mat[i - 1][j]);
                     }
                     if (i < mat.length-1) { //down
-                        System.out.println("Down: " + mat[i + 1][j]);
+                        System.out.println("Down: " + mat[i + 1][j]); //estudar saidas
                     }
                     if (j > 0) { //left
                         System.out.println("Left: " + mat[i][j - 1]);
